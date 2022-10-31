@@ -1,0 +1,22 @@
+{
+  "name": "eyeofthebeholder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knokla/EyeOfTheBeholder.git"
+  },
+  "author": "angar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Knokla/EyeOfTheBeholder/issues"
+  },
+  "homepage": "https://github.com/Knokla/EyeOfTheBeholder#readme",
+  "dependencies": {
+    "@types/node": "^18.11.8"
+  }
+}
