@@ -2,8 +2,10 @@
   "name": "eyeofthebeholder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "tsc",
     "start": "tsc && node dist/index.js"
   },
