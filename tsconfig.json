@@ -8,7 +8,8 @@
       "outDir": "dist",
       "alwaysStrict": true,
       "types": [ "node" ],
-      "typeRoots": [ "node_modules/@types" ]
+      "typeRoots": [ "node_modules/@types" ],
+      "declaration": true
   },
   "lib": ["es2015"]
 }
