@@ -1,5 +1,5 @@
-hello there :)
-
+##hello there :)
+```
 const data ={    
     time: number; //Date.now(), лепится во время отправки
     payloadLength: number; // длина массива последних данных
@@ -12,3 +12,4 @@ const data ={
 const Eye = require('EyeOfTheBeholder').default;
 const eye = new Eye('/data', 7403);
 eye.setData({ ...data });
+```
